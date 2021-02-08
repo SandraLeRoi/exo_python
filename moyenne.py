@@ -14,4 +14,13 @@ while 0<=int(notes)<=20:
     if int(notes) == -1:
         print("La moyenne est: " + is_moyenne())
 
+# correction
 
+notes = []
+note = input('Note: ')
+note = int(note)
+while note != -1:
+    notes.append(note)
+    note = input('Note: ')
+
+print(sum(notes) / len(notes))
