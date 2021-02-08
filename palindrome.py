@@ -14,7 +14,15 @@ else:
     print("Ce n'est pas un palindrome")
 
 # correction
-word = input('Votre mot: ')
+# word = input('Votre mot: ')
+# my_range = range(len(word))
+# is_palindrome = True
 
-
-my_range = range()
+# for i in my_range:
+#     if word[i] == word[-1-i]:
+#         "cas d'un palindrome"
+#     else:
+#         "ce n'est pas un palindrome"
+#         is_palindrome = False
+#
+# print(is_palindrome)
