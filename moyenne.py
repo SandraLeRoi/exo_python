@@ -19,7 +19,7 @@ while 0<=int(notes)<=20:
 notes = []
 note = input('Note: ')
 note = int(note)
-while note != -1:
+while note != -1:   # while 20 >= note >= 0
     notes.append(note)
     note = input('Note: ')
 
