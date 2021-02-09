@@ -31,11 +31,8 @@ class DiceHundred(Dice):
 
 class Game:
     def __init__(self):
-        self.dice = Dice()
-
-    def throw_dices(self):
-        self.dice.reroll()
+        self.dices = []
+        self.dices.append(Dice())
 
 
 my_game = Game()
-my_game.throw_dices()
