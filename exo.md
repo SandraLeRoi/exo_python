@@ -16,3 +16,13 @@
 ## pour ceux qui ont finis:
 Pouvoir sauvegarder les tâches à la sortie du programme et les charger au lancement
 (voir open et le fichier todo.py sur le dépot de William)
+
+# Correction
+## Pour mon programme, j'ai besoin de:  
+Une classe tache avec
+- texte
+- fini ?
+- date de création
+
+Une classe gestionnaire de tache
+- une liste de tâche

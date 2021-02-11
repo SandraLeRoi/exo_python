@@ -30,9 +30,6 @@ class List:
         task.task_ended()
         print("task-ended")
 
-    def task_help(self):
-        print("task-help")
-
 
 list = List()
 # doc = open("todo.txt", "r")
